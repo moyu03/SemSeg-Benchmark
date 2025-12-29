@@ -1,3 +1,7 @@
+# 基于机器学习的图像语义分割
+
+## 项目结构
+```
 SemSeg-Benchmark/
 ├── data/
 │   ├── datasets/      # 存放数据集
@@ -21,3 +25,4 @@ SemSeg-Benchmark/
 │   └── predictions/      # 预测结果
 ├── requirements.txt
 └── README.md
+```
