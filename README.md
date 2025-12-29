@@ -26,7 +26,7 @@ SemSeg-Benchmark/
 ├── requirements.txt
 └── README.md
 ```
-## 核心库
+## 下载加速
 查看镜像源
 ```
 pip config list
