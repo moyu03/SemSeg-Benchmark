@@ -26,3 +26,21 @@ SemSeg-Benchmark/
 ├── requirements.txt
 └── README.md
 ```
+## 核心库
+查看镜像源
+```
+pip config list
+conda config --show-sources
+
+```
+pip添加清华源
+```
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn
+```
+conda添加清华源
+```
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+```
